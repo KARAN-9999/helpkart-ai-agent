@@ -248,7 +248,7 @@
     const input = document.getElementById("messageInput");
 
     function connectSocket() {
-      ws = new WebSocket("ws://127.0.0.1:8000/chat");
+      const ws = new WebSocket("wss://helpkart-ai-agent.onrender.com/chat");
 
       ws.onopen = () => {
         statusBox.textContent = "Connected";
