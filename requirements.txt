@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+openai
+supabase
+psycopg2
+pgvector
+websockets
